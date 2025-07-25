@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #000000;
+    background: #ab7979;
     color: #CFFFE2;
     text-align: center;
 }
@@ -58,8 +58,17 @@ body{
     color: black;
 }
 
+.msg-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 #msg{
-    font-size: 25px;
+    font-size: 40px;
+    text-transform: capitalize;
 }
 
 .hide{
